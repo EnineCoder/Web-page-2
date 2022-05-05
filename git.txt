@@ -1,0 +1,61 @@
+1 => [git clone + the ripo url]                                // clone the repo to your local 
+2 => [git status]                                              // is show what's going on 
+3 => [git add]                                                 // to add files to the stagging area form the working directories
+4 => [git reset head + file name]                              // to return a file from the stagging area to working directories.
+5 => [git commit -m "note"]                                    // to add a file to the local repo
+6 => [git push remoteName branchName]                          // to add files to the remote repo
+7 => [git pull remoteName]                                     // pull = feltch + merge pull bring the files and then mergey them with the local branchName
+8 => [git config -l]                                           // list with all the configrantions
+8 => [git config -l --show-origin]                             // where the configrantions come from
+9 => [git help config]                                         // wiil open the manual page with all the information
+10=> [git config --global user.name]                           // will show the name you can also see email
+10=> [git config --global user.email "eninecoder@gmail.com]    // this is how you can edit or how to ser a property
+11=> [git config --global --unser user.email]                  // this is will remove your email
+12=> [git config --global --edit]                              // this will open the config file will your editore
+13=> [ssh-keygen -t rsa -b 4096 -c "your amail"]               // this how you can generate a public key
+13=> [cat directory]                                           // dislay the content of the directory
+14=> [ssh -t git@github]                                       // to test if your key works
+15=> [git init]                                                // initialize an empty repo in your local
+16=> [git remote add origin ssh key ]                          // after you created a local repo you go to github and create repo and put this code after you commit all your files
+17=> [git push -u origin master]                               // -u make a pull and then push at the same time
+18=> [git config --global alias.st status]                     // this is how you can create an alias for any command you want
+19=> [git branch]                                              // show all your branchs
+20=> [git branch name]                                         // this is how you can create a new branch
+21=> [git chekcout name]                                       // if you want to go to certain branch 
+22=> [git branch -d name]                                      // this is how you can delete a branch with safe delete
+22=> [git branch -D name]                                      // this is how you can delete a branch with force delete whether you have files in this branch or not it will delete them all.
+23=> [git branch -m new name]                                  // this is how you can rename the current branch
+24=> [git merge branch name]                                   // this is how you can merge two branchs
+25=> [git chekcout -b name]                                    // this is hwo you can create a branch and go to it
+26=> [git remote]                                              // show your remote
+27=> [git stash]                                               // save the elements that you don't want to commit inside a stash 
+28=> [git stash pop]                                           // get the last  element you added out of the stash
+29=> [git stash apply]                                         // get the last  element you added out of the stash and leave a copy
+30=> [git stash list]                                          // this will show you your stashed elements
+31=> [git stash save "message"]                                // this allows you to write a message to your stash
+32=> [git stash pop stash@{id}]                                // this allows you to pop a certain stash
+33=> [git stash drap]                                          // remove the last  element you added.
+34=> [git stash drap stash@{id}]                               // romove a certain element
+35=> [git stash show]                                          // show you more details
+36=> [git stash show stash@{id}]                               // show you a more details about a certain element
+37=> [git stash clear]                                         // clear all the elements
+38=> [git restore --staged element name]                       // this will return this element to the stagging area
+39=> [git clean -n]                                            // this will show you the element you want to delete
+40=> [git clean -f]                                            // this will remove the elements
+41=> [git log]                                                 // this will show you the head and that means the last commit
+42=> [git reset --hard element hash]                           // this will make this element the head and then remove all the element after it.
+43=> [git push orign master --force]                           // this will forcly push the changes
+44=> [.gitignore]                                              // you can ignore a certain file
+45=> [git add -f file name]                                    // if you ignore file and you want to add it you can use this to add the element
+46=> [git tag]                                                 // this wiil show all your tags
+47=> [git tag v1.0]                                            // this how you can name your tag
+48=> [git tag -a v2.0 -m"your note"]                           // this wiill create a tag with a specific message
+49=> [git push origin v2.0]                                    // this is how you can push your tag
+50=> [git tag -l "v1.*"]                                       // this i show you can search for tags
+51=> [git tag -d tag name]                                     // this how you can delete a tag.
+51=> [git push origin --delete tag name]                       // this is how you can delete a remote tag
+
+
+
+
+
